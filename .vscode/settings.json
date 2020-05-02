@@ -1,0 +1,17 @@
+{
+    "files.associations": {
+    
+    },
+    //显式弹出语法展开提示
+  "emmet.showSuggestionsAsSnippets": true,
+  //将语法展开提示在提示列表中置顶
+  "editor.snippetSuggestions": "top",
+  //emmet只显示标记语言和样式表的展开提示
+  "emmet.showExpandedAbbreviation": "inMarkupAndStylesheetFilesOnly",
+  //emmet能识别缩写语法的场景
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "vue-html": "html",
+    "plaintext": "jade"
+  }
+}
