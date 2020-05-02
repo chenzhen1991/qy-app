@@ -29,7 +29,7 @@ export default class Header extends Component {
                         <div></div>
                         <div></div>
                     </div>
-                    {isShow ? <div class='nav-menu'>
+                    {isShow ? <div className='nav-menu'>
                         <Link className='item' to='/'>首页</Link>
                         <Link className='item' to='/about'>关于我们</Link>
                         <Link className='item' to='/business'>业务模块</Link>
