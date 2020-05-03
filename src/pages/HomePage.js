@@ -10,7 +10,6 @@ import Contact from '../component/Contact';
 import '../static/css/common.less';
 
 const HomePageBanner = require('../static/images/home_banner.png');
-const HomePageBanner1 = require('../static/images/home_banner.png');
 
 export default function HomePage() {
     return (
@@ -24,7 +23,9 @@ export default function HomePage() {
                 <Reason />
                 <Process />
                 <Contact />
-                <img className='banner' src={HomePageBanner1} alt="钱源二类电商投放2.0 让产品销售省心无忧"/>
+                <div className='contact-map'>
+                    <button>地图导航</button>
+                </div>
             </Page>
         </div>
     )

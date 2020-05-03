@@ -1,7 +1,8 @@
 import React from 'react';
 import Page from '../component/Page';
 import Title from "../component/Title";
-import '../static/css/contact-us.less'
+import '../static/css/contact-us.less';
+import '../static/css/common.less';
 const HomePageBanner = require('../static/images/contact_banner.png');
 
 const pic = [require('../static/images/icon_contact_002.png'),require('../static/images/icon_contact_003.png'),require('../static/images/icon_contact_004.png')]
