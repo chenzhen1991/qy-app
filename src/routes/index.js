@@ -4,14 +4,16 @@ import HomePage from '../pages/HomePage';
 import AboutUs from '../pages/AboutUs';
 import Business from '../pages/Business';
 import ContactUs from '../pages/ContactUs';
+import Partner from '../pages/Partner';
 
 const BasicRoute = () => (
     <HashRouter>
         <Switch>
             <Route exact path="/" component={HomePage}/>
-            <Route exact path="/aboutUs" component={AboutUs}/>
-            <Route exact path="/business" component={Business}/>
-            <Route exact path="/contact" component={ContactUs}/>
+            <Route path="/aboutUs" component={AboutUs}/>
+            <Route path="/business" component={Business}/>
+            <Route path="/contact" component={ContactUs}/>
+            <Route path="/partner" component={Partner}/>
         </Switch>
     </HashRouter>
 );

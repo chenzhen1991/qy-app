@@ -1,17 +1,19 @@
 import React, { Component } from 'react';
 import '../static/css/header.less';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 const logo = require('../static/images/logo.png');
 
 export default class Header extends Component {
     constructor(props) {
         super(props)
         this.state = {
-            isShow: false
+            isShow: false,
+            isActived: false
         }
     }
 
     triggerMenu() {
+        console.log(window.location)
         this.setState({
             isShow: !this.state.isShow
         })
@@ -19,7 +21,7 @@ export default class Header extends Component {
 
     
     render() {
-        const {isShow} = this.state
+        const {isShow} = this.state;
         return (
             <header>
                 <div className='logo'><img src={logo} alt=""/></div>
@@ -30,12 +32,20 @@ export default class Header extends Component {
                         <div></div>
                     </div>
                     {isShow ? <div className='nav-menu'>
-                        <Link className='item' to='/'>首页</Link>
-                        <Link className='item' to='/about'>关于我们</Link>
-                        <Link className='item' to='/business'>业务模块</Link>
-                        <Link className='item' to='/partner'>成功案例</Link>
-                        <Link className='item' to='/team'>团队文化</Link>
-                        <Link className='item' to='/contact'>联系我们</Link>
+                        <NavLink className='item' exact activeClassName='active' activeStyle={{
+                            color: 'rgb(0,103,168)',
+                            backgroundColor: 'white'
+                        }} to='/'>首页</NavLink>
+                        <NavLink className='item' activeClassName='active' activeStyle={{color: 'rgb(0,103,168)',
+                            backgroundColor: 'white'}} to='/aboutUs'>关于我们</NavLink>
+                        <NavLink className='item' activeClassName='active' activeStyle={{color: 'rgb(0,103,168)',
+                            backgroundColor: 'white'}} to='/business'>业务模块</NavLink>
+                        <NavLink className='item' activeClassName='active' activeStyle={{color: 'rgb(0,103,168)',
+                            backgroundColor: 'white'}} to='/partner'>成功案例</NavLink>
+                        <NavLink className='item' activeClassName='active' activeStyle={{color: 'rgb(0,103,168)',
+                            backgroundColor: 'white'}} to='/team'>团队文化</NavLink>
+                        <NavLink className='item' activeClassName='active' activeStyle={{color: 'rgb(0,103,168)',
+                            backgroundColor: 'white'}} to='/contact'>联系我们</NavLink>
                     </div> : null }
                 </div>
             </header>
