@@ -18,7 +18,7 @@ export default class Header extends Component {
             <div>
                 <div className='header-blank'></div>
                 <header>
-                    <div className='logo'><img src={logo} alt=""/></div>
+                    <NavLink to="/" className='logo'><img src={logo} alt=""/></NavLink>
                     <div className='nav'>
                         <div className='nav-icon' onClick={() => this.triggerMenu()}>
                             <div></div>

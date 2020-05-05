@@ -121,7 +121,7 @@ export default function HomePage() {
                 <div className='achievement'>
                     <Title title='成就及荣誉' msg='ACHIEVEMENTS AND HONORS'/>
                     <div className='img'>
-                        <button>2019年度荣获优秀鲁班精神奖</button>
+                        <div>2019年度荣获优秀鲁班精神奖</div>
                     </div>
                 </div>
             </Page>
