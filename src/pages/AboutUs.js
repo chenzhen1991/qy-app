@@ -35,10 +35,12 @@ export default function HomePage() {
                                     <h4>2018年3月12日</h4>
                                     <p>公司在长沙成立</p>
                                 </div>
+                                <div className="quan"></div>
                                 <div></div>
                             </div>
                             <div className='content item_1'>
                                 <div></div>
+                                <div className="quan"></div>
                                 <div className="right">
                                     <h4>4月23日</h4>
                                     <p>员工由3人发展至10人</p>
@@ -49,10 +51,12 @@ export default function HomePage() {
                                     <h4>2018年5月1日</h4>
                                     <p>公司搬迁至麓谷信息港C016</p>
                                 </div>
+                                <div className="quan"></div>
                                 <div></div>
                             </div>
                             <div className='content item_1'>
                                 <div></div>
+                                <div className="quan"></div>
                                 <div className="right">
                                     <h4>短短2个月不到</h4>
                                     <p>业绩上升，团队迅速扩张</p>
@@ -63,10 +67,12 @@ export default function HomePage() {
                                     <h4>2019年1月18日</h4>
                                     <p>普瑞温泉假日酒店举行<br/>第一次年会<br/>员工人数增加至20人</p>
                                 </div>
+                                <div className="quan"></div>
                                 <div></div>
                             </div>
                             <div className='content item_1'>
                                 <div></div>
+                                <div className="quan"></div>
                                 <div className="right">
                                     <h4>2019年1月18日</h4>
                                     <p>年会同时拿下鲁班<br/>一级代理</p>
@@ -77,10 +83,12 @@ export default function HomePage() {
                                     <h4>2019年1月26日</h4>
                                     <p>受邀参与<br/>巨量引擎海南年会</p>
                                 </div>
+                                <div className="quan"></div>
                                 <div></div>
                             </div>
                             <div className='content item_1'>
                                 <div></div>
+                                <div className="quan"></div>
                                 <div className="right">
                                     <h4>2019年3月4日</h4>
                                     <p>员工人数增加至70人<br/>公司搬迁至麓谷信息港<br/>A009+A010+C016</p>
@@ -91,10 +99,12 @@ export default function HomePage() {
                                     <h4>2019年4月</h4>
                                     <p>业务范围迅速延伸<br/>鲁班/抖音/快手/广点通<br/>百度/AD/客服</p>
                                 </div>
+                                <div className="quan"></div>
                                 <div></div>
                             </div>
                             <div className='content item_1'>
                                 <div></div>
+                                <div className="quan"></div>
                                 <div className="right">
                                     <h4>2019年4月15日</h4>
                                     <p>单日业绩消耗突破150W</p>
@@ -105,10 +115,12 @@ export default function HomePage() {
                                     <h4>2019年5月23日</h4>
                                     <p>单日业绩消耗突破<br/>450W</p>
                                 </div>
+                                <div className="quan"></div>
                                 <div></div>
                             </div>
                             <div className='content item_1'>
                                 <div></div>
+                                <div className="quan"></div>
                                 <div className="right">
                                     <h4>预计2020年10月</h4>
                                     <p>公司搬迁至自购写字楼</p>
