@@ -2,7 +2,7 @@ import React from 'react'
 import Page from "../component/Page";
 import Title from "../component/Title";
 import '../static/css/team.less'
-const HomePageBanner = require('../static/images/client_banner.png');
+const HomePageBanner = require('../static/images/team_banner.png');
 const picArray = [require('../static/images/icon_team_des_001.png'),require('../static/images/icon_team_des_002.png'),require('../static/images/icon_team_des_003.png'),require('../static/images/icon_team_des_004.png'),]
 export default function Team() {
     return (

@@ -2,7 +2,7 @@ import React from 'react';
 import Title from "../component/Title";
 import Page from "../component/Page";
 import '../static/css/partner.less'
-const HomePageBanner = require('../static/images/team_banner.png');
+const HomePageBanner = require('../static/images/client_banner.png');
 
 export default function Partner() {
     return (
