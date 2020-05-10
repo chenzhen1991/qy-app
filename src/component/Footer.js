@@ -19,7 +19,7 @@ export default function Footer() {
             </div>
             <div className="address">
                 <p>公司地址:长沙市岳麓区麓谷大道麓谷信息港4楼A010</p>
-                <p><span>长沙钱源文化传媒有限公司</span><span>湘ICP备18020436号</span></p>
+                <p><span>长沙钱源文化传媒有限公司</span><span>湘ICP备20007084号-1</span></p>
             </div>
         </footer>
     )

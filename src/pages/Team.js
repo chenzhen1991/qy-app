@@ -9,7 +9,7 @@ export default function Team() {
         <div>
             <Page>
                 <img className='banner' src={HomePageBanner} alt="钱源二类电商投放2.0 让产品销售省心无忧"/>
-                <Title title='成功案例' msg='Qian Yuan Culture'/>
+                <Title title='钱源文化' msg='Qian Yuan Culture'/>
                 <div className='example-content'>
                     <div><img src={picArray[0]} alt=""/></div>
                     <div>

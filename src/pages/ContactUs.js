@@ -26,8 +26,8 @@ export default function ContactUs() {
                     </div>
                     <div>
                         <img src={pic[2]} alt=""/>
-                        <h4>QQ资讯</h4>
-                        <p>476686705@qq.com</p>
+                        <h4>QQ咨询</h4>
+                        <p>476686705</p>
                     </div>
                 </div>
                 <div className='contact-method'>
